@@ -16,8 +16,8 @@ namespace ParallelProgramming
             {
                 case "1":
                     Console.Write("Введите число: ");
-                    int str = Convert.ToInt32(Console.ReadLine());
-                    new Thread(() => { Lab1(str); }).Start(); break;
+                    int num = Convert.ToInt32(Console.ReadLine());
+                    new Thread(() => { Lab1(num); }).Start(); break;
                 case "3":
                     new TaskLab().Lab3(); break;
                 case "4":
